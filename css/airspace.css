@@ -104,6 +104,7 @@ header {
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
+  font-weight: 600;
 }
 header .navbar-brand {
   padding-top: 5px;
@@ -150,11 +151,11 @@ font header .navbar-default .navbar-nav li a:hover {
   opacity: 0.8;
 }
 #slider .block {
-  color: #E3E3E4;
+  color: #000000;
 }
 #slider .block h1 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 1000;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
@@ -164,7 +165,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 3px;
 }
 /*--
@@ -883,3 +884,19 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+.contact-title {
+  margin-bottom: 70px;
+}
+.contact-title h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 600;
+}
+.contact-title p {
+  font-family: 'Volkhov', serif;
+  font-style: italic;
+  color: #666;
+}
+
