@@ -211,6 +211,14 @@ px      68    160    252    */
     padding-bottom: 70px;
   }
   /*--
+  youtube Start 
+--*/
+  #youtube {
+    padding-top: 100px;
+  }
+  #youtube .thumbnail {
+    padding-bottom: 70px;
+  }  /*--
 	call-to-action Start 
 --*/
   #call-to-action p {
