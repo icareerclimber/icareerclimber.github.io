@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Airspace for Hugo</title>
-    <link>https://icareerclimber.github.io/</link>
-    <description>Recent content on Airspace for Hugo</description>
+    <title>Howitworks on Airspace for Hugo</title>
+    <link>https://icareerclimber.github.io/howitworks/</link>
+    <description>Recent content in Howitworks on Airspace for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
     
-	<atom:link href="https://icareerclimber.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://icareerclimber.github.io/howitworks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -74,42 +74,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://icareerclimber.github.io/howitworks/getting-the-data/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Contact Us</title>
-      <link>https://icareerclimber.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icareerclimber.github.io/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Live Demo</title>
-      <link>https://icareerclimber.github.io/demo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icareerclimber.github.io/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Next Steps</title>
-      <link>https://icareerclimber.github.io/nextsteps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icareerclimber.github.io/nextsteps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Our Team</title>
-      <link>https://icareerclimber.github.io/team/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icareerclimber.github.io/team/</guid>
-      <description></description>
     </item>
     
   </channel>

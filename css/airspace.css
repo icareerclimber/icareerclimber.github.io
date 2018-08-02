@@ -183,6 +183,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .block p {
   color: #7B7B7B;
   padding-top: 20px;
+  font-size: 20px;
 }
 #intro .block img {
   padding-left: 40px;
@@ -256,7 +257,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding: 70px 0px;
   position: relative;
   text-align: center;
-  color: #fff;
+  /*color: #fff;*/
 }
 #call-to-action:before {
   content: "";
@@ -267,25 +268,27 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   width: 100%;
   height: 100%;
-  /*background: #1d192c;*/
+  background: #5299d7;
   opacity: 0.8;
 }
 #call-to-action h2 {
   padding-bottom: 20px;
   line-height: 33px;
   margin: 0;
+  font-weight: 600;
   font-size: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 1.6;
+  font-weight: 600;
 }
 #call-to-action .btn-call-to-action {
   padding: 15px 35px;
   border: none;
   background-color: #fff;
   font-size: 15px;
-  color: #333333;
+  /*color: #333333;*/
   margin-top: 30px;
 }
 /*--
