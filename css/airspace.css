@@ -76,7 +76,7 @@ a:active {
   color: #666;
 }
 
-.btn-main, .btn-transparent, .btn-small {
+.btn-main, .btn-transparent {
     background: #82888A;
     color: #fff;
     display: inline-block;
@@ -84,6 +84,20 @@ a:active {
     font-weight: 800;
     letter-spacing: 1px;
     padding: 14px 35px;
+    text-transform: uppercase;
+    border-radius: 10;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.btn-small {
+    background: #82888A;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 8px;
     text-transform: uppercase;
     border-radius: 10;
     -webkit-transition: all 0.2s ease;

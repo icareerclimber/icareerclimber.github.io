@@ -586,12 +586,231 @@ Oversampling:
 
 <p></br></p>
 
-<h2 id="3-next-steps">[3] Next Steps</h2>
+<h2 id="3-time-based-model-not-productionized">[3] Time-Based Model (Not Productionized)</h2>
+
+<p><a href="https://github.com/kbelsvik/career-skills-capstone/blob/master/model_pipeline/07_process_model_software_engineer_over_time.ipynb">Link to Code</a></p>
+
+<p>The resumes we collected contained a large number of <strong><em>software engineering</em></strong> roles, so we thought it would be interesting to create a classification model to derive the most important skills for different periods of time for software engineers. Below are the highest weighted skills for each timeframe. <strong>This model is not included in the app.</strong></p>
+
+<p></br></p>
+
+<h3 id="model-parameters-1">Model Parameters</h3>
+
+<pre><code>Number of Classes:
+    114
+
+TD-IDF Vectorizer:
+    Min_df: 0
+    Ngram_range: [2,4]
+
+Oversampling:
+    Less common jobs were oversampled to 2500 records using the regular Synthetic Minority Over-sampling Technique (SMOTE).
+
+Multinomial Naive Bayes Classifier:
+    Alpha: 0.1
+</code></pre>
+
+<p></br></p>
+
+<h3 id="model-performance-2">Model Performance</h3>
+
+<table>
+<thead>
+<tr>
+<th>&emsp;Metric&emsp;</th>
+<th>&emsp;Result&emsp;</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>&emsp;Accuracy&emsp;</td>
+<td>&emsp;54.52%%&emsp;</td>
+</tr>
+</tbody>
+</table>
+
+<p></br></p>
+
+<h3 id="results">Results</h3>
+
+<p>Technology is one of the fastest changing industries. From this model, we can see the rise to prominence and the fall of different tools through time.</p>
+
+<table>
+<thead>
+<tr>
+<th>&emsp;  Earlier-1998    &emsp;</th>
+<th>&emsp;  1998-2003   &emsp;</th>
+<th>&emsp;  2003-2008   &emsp;</th>
+<th>&emsp;  2008-2013   &emsp;</th>
+<th>&emsp;  2013-2018   &emsp;</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>&emsp;  development team    &emsp;</td>
+<td>&emsp;  database design &emsp;</td>
+<td>&emsp;  unit testing    &emsp;</td>
+<td>&emsp;  management system   &emsp;</td>
+<td>&emsp;  version control &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  test plan   &emsp;</td>
+<td>&emsp;  rational rose   &emsp;</td>
+<td>&emsp;  crystal report  &emsp;</td>
+<td>&emsp;  html cs javascript  &emsp;</td>
+<td>&emsp;  unit testing    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  window nt   &emsp;</td>
+<td>&emsp;  client server   &emsp;</td>
+<td>&emsp;  java j2ee   &emsp;</td>
+<td>&emsp;  test plan   &emsp;</td>
+<td>&emsp;  web application using   &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  software design &emsp;</td>
+<td>&emsp;  vb net  &emsp;</td>
+<td>&emsp;  net asp net &emsp;</td>
+<td>&emsp;  data access &emsp;</td>
+<td>&emsp;  visual studio   &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  customer support    &emsp;</td>
+<td>&emsp;  crystal report  &emsp;</td>
+<td>&emsp;  web base    &emsp;</td>
+<td>&emsp;  front end   &emsp;</td>
+<td>&emsp;  full stack  &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  tcp ip  &emsp;</td>
+<td>&emsp;  using visual basic  &emsp;</td>
+<td>&emsp;  software development    &emsp;</td>
+<td>&emsp;  sql query   &emsp;</td>
+<td>&emsp;  develop maintain    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  programmer analyst  &emsp;</td>
+<td>&emsp;  store procedure &emsp;</td>
+<td>&emsp;  oracle 9i   &emsp;</td>
+<td>&emsp;  design implement    &emsp;</td>
+<td>&emsp;  store procedure &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  cobol ii    &emsp;</td>
+<td>&emsp;  software application    &emsp;</td>
+<td>&emsp;  html cs &emsp;</td>
+<td>&emsp;  java j2ee   &emsp;</td>
+<td>&emsp;  technology use  &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  ibm mainframe   &emsp;</td>
+<td>&emsp;  tcp ip  &emsp;</td>
+<td>&emsp;  develop test    &emsp;</td>
+<td>&emsp;  visual studio   &emsp;</td>
+<td>&emsp;  new feature &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  client server   &emsp;</td>
+<td>&emsp;  pl sql  &emsp;</td>
+<td>&emsp;  store procedure &emsp;</td>
+<td>&emsp;  new feature &emsp;</td>
+<td>&emsp;  code review &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  system use  &emsp;</td>
+<td>&emsp;  technology use  &emsp;</td>
+<td>&emsp;  role responsibility &emsp;</td>
+<td>&emsp;  using asp net   &emsp;</td>
+<td>&emsp;  agile scrum &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  assembly language   &emsp;</td>
+<td>&emsp;  user interface  &emsp;</td>
+<td>&emsp;  window xp   &emsp;</td>
+<td>&emsp;  unit testing    &emsp;</td>
+<td>&emsp;  rest api    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  user interface  &emsp;</td>
+<td>&emsp;  data warehouse  &emsp;</td>
+<td>&emsp;  team member &emsp;</td>
+<td>&emsp;  application use &emsp;</td>
+<td>&emsp;  design implement    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  device driver   &emsp;</td>
+<td>&emsp;  development team    &emsp;</td>
+<td>&emsp;  design implementation   &emsp;</td>
+<td>&emsp;  user interface  &emsp;</td>
+<td>&emsp;  using asp net   &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  develop implement   &emsp;</td>
+<td>&emsp;  html javascript &emsp;</td>
+<td>&emsp;  business logic  &emsp;</td>
+<td>&emsp;  web base    &emsp;</td>
+<td>&emsp;  entity framework    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  using visual basic  &emsp;</td>
+<td>&emsp;  responsibility include  &emsp;</td>
+<td>&emsp;  visual basic    &emsp;</td>
+<td>&emsp;  software engineer   &emsp;</td>
+<td>&emsp;  management system   &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  vax vms &emsp;</td>
+<td>&emsp;  operating system    &emsp;</td>
+<td>&emsp;  management system   &emsp;</td>
+<td>&emsp;  business logic  &emsp;</td>
+<td>&emsp;  development team    &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  pl sql  &emsp;</td>
+<td>&emsp;  technical support   &emsp;</td>
+<td>&emsp;  user interface  &emsp;</td>
+<td>&emsp;  code review &emsp;</td>
+<td>&emsp;  software engineer   &emsp;</td>
+</tr>
+
+<tr>
+<td>&emsp;  responsibility include  &emsp;</td>
+<td>&emsp;  web service &emsp;</td>
+<td>&emsp;  net sql server  &emsp;</td>
+<td>&emsp;  responsibility involve  &emsp;</td>
+<td>&emsp;  sql server  &emsp;</td>
+</tr>
+</tbody>
+</table>
+
+<p></br></p>
+
+<h2 id="4-next-steps">[4] Next Steps</h2>
 
 <ol>
 <li>Test different vectorization models, such as the Transformer Model</li>
 <li>Test neural network classification models, such as CNN</li>
 <li>Expand the number of classes</li>
+<li>Incorporate time-based modeling</li>
 </ol>
 </p>
 	          </div>
@@ -601,7 +820,7 @@ Oversampling:
 	  </section>
 	</div>
 	<p class="center-text" style="padding: 30px;">
-	  <a class="btn btn-main" href="https://icareerclimber.github.io//howitworks">Back to How It Works</a>
+	  <a class="btn btn-small" href="https://icareerclimber.github.io//howitworks">Back to How It Works</a>
 	</p>
 
 	
