@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Airspace for Hugo</title>
+    <title>iCareer Climber</title>
     <link>https://icareerclimber.github.io/</link>
-    <description>Recent content on Airspace for Hugo</description>
+    <description>Recent content on iCareer Climber</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jul 2018 00:00:00 +0000</lastBuildDate>
@@ -42,12 +42,13 @@ This product is a proof of concept and contains a small subset of possible jobs.
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://icareerclimber.github.io/howitworks/visualization-design/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <description>Salary Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
+Education Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
+Next Steps -
+ Add identifor for STEM versus non-STEM degrees.
+ Improve processing speed.
+  Job Title Hierarchy Tree Graph This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
+Next Steps - add a way to identify length of time spent in a job.</description>
     </item>
     
     <item>
