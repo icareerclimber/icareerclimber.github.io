@@ -928,3 +928,17 @@ footer .footer-manu ul li a:hover {
   display:flex; 
   justify-content:center;
 }
+
+table {
+  /*border-collapse: collapse;*/
+  border:2px solid;
+  border-width: 5;
+}
+
+th {
+  border:2px solid;
+}
+
+td {
+  border:2px solid;
+}
