@@ -41,8 +41,8 @@ Jobs Title Job titles vary widely from resume to resume, so we created a heurist
       
       <guid>https://icareerclimber.github.io/howitworks/visualization-design/</guid>
       <description>Salary Barchart Visualization | Code&amp;emsp;&amp;emsp;Built using D3.js
-This visualization allows the user to see salaries from the past 5 years for their state (or national). Salaries are grouped by any &amp;ldquo;job qualifiers&amp;rdquo; on the job titles and &amp;ldquo;no_value&amp;rdquo; indicates a job has no job qualifiers. The bars show lower quartile, upper quartile, and median. The tooltip gives additional metrics.
-Next Steps - Create a visualizaion that shows jobs with decreasing/increasing demand and salaries.</description>
+This visualization allows the user to see salaries from the past 5 years for their state (or nationally). Salaries are grouped by any &amp;ldquo;job qualifiers&amp;rdquo; on the job titles and &amp;ldquo;no_value&amp;rdquo; indicates a job has no job qualifiers. The bars show lower quartile, upper quartile, and median. The tooltip gives additional metrics.
+Next Steps - Create a visualization that shows jobs with decreasing/increasing demand and salaries.</description>
     </item>
     
     <item>
