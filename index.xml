@@ -44,10 +44,8 @@ This product is a proof of concept and contains a small subset of possible jobs.
       <guid>https://icareerclimber.github.io/howitworks/visualization-design/</guid>
       <description>Salary Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
 Education Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
-Next Steps -
- Add identifor for STEM versus non-STEM degrees.
- Improve processing speed.
-  Job Title Hierarchy Tree Graph This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
+Next Steps - Add identifor for STEM versus non-STEM degrees.
+Job Title Hierarchy Tree Graph This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
 Next Steps - add a way to identify length of time spent in a job.</description>
     </item>
     
@@ -57,8 +55,7 @@ Next Steps - add a way to identify length of time spent in a job.</description>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://icareerclimber.github.io/howitworks/back-end-architecture/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+      <description>words blah blah</description>
     </item>
     
     <item>
@@ -67,9 +64,7 @@ menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipisc
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://icareerclimber.github.io/howitworks/front-end-architecture/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <description>Next Steps 1. Add an upload link to upload resume and parse contents</description>
     </item>
     
     <item>
