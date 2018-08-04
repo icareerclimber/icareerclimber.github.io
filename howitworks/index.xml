@@ -20,7 +20,7 @@
       <description>[1] Data Collection Using Python Selenium and Beautiful Soup libraries to build web scraping tools, our team collected from the web over 600k unique resumes and 1.1 million salary records representing over 5500 cities across 20 years.
 Link to Code
 
-[2] Data Transformation Data ingestion pipelines were created to standardize the data inputs from various sources.
+[2] Data Transformation Data ingestion pipelines were created to standardize the data inputs from the various sources.
 
 Jobs Title Job titles vary widely from resume to resume, so we created a heuristic to process each job title into a standard format.</description>
     </item>
@@ -32,8 +32,7 @@ Jobs Title Job titles vary widely from resume to resume, so we created a heurist
       
       <guid>https://icareerclimber.github.io/howitworks/the-models/</guid>
       <description>[1] Document Similarity Model Link to Code
-We provide career recommendations in a ranked order based on the similarity of a job seeker&amp;rsquo;s current/past job experiences. Our model is powered by resume information all across the US.
-This product is a proof of concept and contains a small subset of possible jobs. Our model contains 114 unique job titles. The list of job titles is derived from the availability of salary information.</description>
+We provide career recommendations in a ranked order based on the similarity of a job seeker&amp;rsquo;s current job experiences. Our model is powered by resume information all across the US. This product is a proof of concept and contains a small subset of possible jobs (114 unique job titles). The list of jobs is derived from the availability of salary and resume data.</description>
     </item>
     
     <item>
@@ -42,11 +41,9 @@ This product is a proof of concept and contains a small subset of possible jobs.
       <pubDate>Sat, 28 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://icareerclimber.github.io/howitworks/visualization-design/</guid>
-      <description>Salary Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
-Education Barchart This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
-Next Steps - Add identifor for STEM versus non-STEM degrees.
-Job Title Hierarchy Tree Graph This visualization was built using D3.js. &amp;emsp;&amp;emsp;Visualization | Code
-Next Steps - add a way to identify length of time spent in a job.</description>
+      <description>Salary Barchart Visualization | Code&amp;emsp;&amp;emsp;Built using D3.js
+This visualization allows the user to see salaries from the past 5 years for their state (or national). Salaries are grouped by any &amp;ldquo;job qualifiers&amp;rdquo; on the job titles and &amp;ldquo;no_value&amp;rdquo; indicates a job has no job qualifiers. The bars show lower quartile, upper quartile, and median. The tooltip gives additional metrics.
+Next Steps - Create a visualizaion that shows jobs with decreasing/increasing demand and salaries.</description>
     </item>
     
     <item>
