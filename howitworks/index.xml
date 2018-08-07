@@ -60,7 +60,7 @@ Next Steps - Create a visualization that shows jobs with decreasing/increasing d
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://icareerclimber.github.io/howitworks/front-end-architecture/</guid>
-      <description>Next Steps 1. Add an upload link to upload resume and parse contents</description>
+      <description>[1] UI Layer UI layer has three components: A grid layout is created using Bootstrap, User interaction logic and state is maintained React JS; and D3.js is for visualization. The javascript libraries are sourced directlhy from cdn, while the Ajax style communication between the UI and the frontend web server is faciliate by Axios JS library. To simplify design, user input is passed to frontend server via http extension header instead of the traditional http form POST method.</description>
     </item>
     
   </channel>
