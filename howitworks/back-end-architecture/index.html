@@ -101,7 +101,55 @@
 	              <p class="italic">By <span class="bold">iCareer Climber Team</span> on <span class="bold">6 July 2018</span></p>
 	            </div>
 	            <hr />
-	            <p><p>words blah blah</p>
+	            <p>
+
+<p></br></p>
+
+<h2 id="1-the-backend-application">[1] The Backend Application</h2>
+
+<p><a href="https://github.com/kbelsvik/career-skills-capstone/tree/master/careers-api" target="_blank">Link to Code</a></p>
+
+<p>The backend is a Flask application whose primary purpose is to accept job description inputs and output job similarity scores using the model.  This allows us to serve up model results for consumption by the frontend application.</p>
+
+<p><img src="https://raw.githubusercontent.com/icareerclimber/source-code/master/content/howitworks/images_folder/Backend-arch.png" width="500"></p>
+
+<p>The application is built as a docker container which can easily be tested locally and then uploaded to Google Cloud Container Registry and deployed to a Google Cloud cluster with Kubernetes.</p>
+
+<p>The models are stored in a Google Cloud Storage bucket, which is mounted to the application container using <a href="https://cloud.google.com/storage/docs/gcs-fuse" target="_blank">FUSE</a>.  The models are stored as pickled Scikit Learn models which can be loaded into the Flask application.</p>
+
+<p></br></p>
+
+<h2 id="2-the-api-requests">[2] The API Requests</h2>
+
+<p>The backend is a basic REST api which accepts and serves JSON data.</p>
+
+<pre><code class="language-bash">$ curl -XPOST -H 'Content-Type: application/json' -d '{&quot;experience&quot;:[{&quot;description&quot;: &quot;organizing projects with agile and scrum methodologies&quot;}]}' 35.230.26.112/model/similar_jobs | python -m json.tool | head -22
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  7535  100  7445  100    90   8638    104 --:--:-- --:--:-- --:--:--  8636
+{
+    &quot;results&quot;: [
+        {
+            &quot;probability&quot;: 0.24560086752139812,
+            &quot;title&quot;: &quot;technical project manager&quot;
+        },
+        {
+            &quot;probability&quot;: 0.09362546705168302,
+            &quot;title&quot;: &quot;quality assurance engineer&quot;
+        },
+        {
+            &quot;probability&quot;: 0.07340485510020563,
+            &quot;title&quot;: &quot;quality assurance analyst&quot;
+        },
+        {
+            &quot;probability&quot;: 0.05443605668438692,
+            &quot;title&quot;: &quot;ux engineer&quot;
+        },
+        {
+            &quot;probability&quot;: 0.05370892876346319,
+            &quot;title&quot;: &quot;program manager&quot;
+        },
+</code></pre>
 </p>
 	          </div>
 	        </div>
