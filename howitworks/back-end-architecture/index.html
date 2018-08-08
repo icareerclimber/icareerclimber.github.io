@@ -105,7 +105,7 @@
 
 <h2 id="1-the-backend-application">[1] The Backend Application</h2>
 
-<p><a href="https://github.com/kbelsvik/career-skills-capstone/tree/master/careers-api" target="_blank">Link to Code</a></p>
+<p><a href="https://github.com/icareerclimber/career-skills-capstone/tree/master/careers-api" target="_blank">Link to Code</a></p>
 
 <p>The backend is a Flask application whose primary purpose is to accept job description inputs and output job similarity scores using the model.  This allows us to serve up model results for consumption by the frontend application.</p>
 
@@ -117,9 +117,19 @@
 
 <p></br></p>
 
+<h4 id="next-steps">Next Steps</h4>
+
+<ul>
+<li>Serve data for visualizations through api</li>
+<li>Add processes to automate scraping and data procoessing</li>
+<li>Store data received from front end for use in updating of models</li>
+</ul>
+
 <h2 id="2-the-api-requests">[2] The API Requests</h2>
 
 <p>The backend is a basic REST api which accepts and serves JSON data.</p>
+
+<h4 id="job-similarity-model">Job similarity model:</h4>
 
 <pre><code class="language-bash">$ curl -XPOST -H 'Content-Type: application/json' -d '{&quot;experience&quot;:[{&quot;description&quot;: &quot;organizing projects with agile and scrum methodologies&quot;}]}' 35.230.26.112/model/similar_jobs | python -m json.tool | head -22
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -147,6 +157,38 @@
             &quot;probability&quot;: 0.05370892876346319,
             &quot;title&quot;: &quot;program manager&quot;
         },
+</code></pre>
+
+<h4 id="top-skills-model">Top skills model</h4>
+
+<pre><code class="language-bash">$ curl 35.230.26.112/model/skills/data%20scientist | jq
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   501  100   501    0     0  20293      0 --:--:-- --:--:-- --:--:-- 21782
+{
+  &quot;results&quot;: [
+    &quot;learning model predict&quot;,
+    &quot;utilize machine learning&quot;,
+    &quot;time series model&quot;,
+    &quot;random forest svm&quot;,
+    &quot;market basket analysis&quot;,
+    &quot;forest gradient boosting&quot;,
+    &quot;http github com&quot;,
+    &quot;principal component analysis&quot;,
+    &quot;using python sql&quot;,
+    &quot;data analysis data&quot;,
+    &quot;using logistic regression&quot;,
+    &quot;structure unstructured data&quot;,
+    &quot;large data set&quot;,
+    &quot;various data source&quot;,
+    &quot;learning predictive analytics&quot;,
+    &quot;language processing nlp&quot;,
+    &quot;using kmeans clustering&quot;,
+    &quot;learning algorithm python&quot;,
+    &quot;data science bootcamp&quot;,
+    &quot;amazon web service&quot;
+  ]
+}
 </code></pre>
 </p>
 	          </div>
